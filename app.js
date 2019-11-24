@@ -1,5 +1,5 @@
 const express = require('express');
-const redirectList = require('./config.json');
+const redirectList = require('./redirect-config.json');
 const app = express();
 const listenPort = 3000;
 
