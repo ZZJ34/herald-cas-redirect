@@ -1,7 +1,7 @@
 const express = require('express');
 const redirectList = require('./redirect-config.json');
 const app = express();
-const listenPort = 3000;
+const listenPort = 6599;
 
 app.get(/.*/, function (req, res) {
   try{
