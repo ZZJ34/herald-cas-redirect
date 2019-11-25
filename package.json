@@ -9,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "rfs": "^9.0.2",
+    "rotating-file-stream": "^2.0.0"
   }
 }

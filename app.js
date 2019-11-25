@@ -1,7 +1,19 @@
 const express = require('express');
 const redirectList = require('./redirect-config.json');
+const rfs = require('rotating-file-stream');
+const morgan = require('morgan');
+const path = require('path');
+
 const app = express();
 const listenPort = 6599;
+
+const accessLogStream = rfs.createStream('access.log', {
+  interval: '1d', // rotate daily
+  path: path.join(__dirname, 'log')
+})
+console.log(__dirname);
+
+app.use(morgan('combined', { stream: accessLogStream }))
 
 app.get(/.*/, function (req, res) {
   try{
