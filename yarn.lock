@@ -285,11 +285,6 @@ path-to-regexp@0.1.7:
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-postcss-value-parser@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.0.2.tgz#482282c09a42706d1fc9a069b73f44ec08391dc9"
-  integrity sha512-LmeoohTpp/K4UiyQCwuGWlONxXamGzCMtFxLq4W1nZVGIQLYvMCJx3yAF9qyyuFpflABI9yVdtJAqbihOsCsJQ==
-
 proxy-addr@~2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/proxy-addr/-/proxy-addr-2.0.5.tgz#34cbd64a2d81f4b1fd21e76f9f06c8a45299ee34"
@@ -317,18 +312,6 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
-
-rfs@^9.0.2:
-  version "9.0.2"
-  resolved "https://registry.yarnpkg.com/rfs/-/rfs-9.0.2.tgz#3561013d529e4cbeb5839bd7a6b4e2fa48a54a28"
-  integrity sha512-reBlIf8GuC3h6LgpEWMCjGUwo7kNgNNnxhX6yTEHD4NEjg4gsVoWyqJ8rdNYjD2KFWxBqAmfuFIQcuaKNY0Oqg==
-  dependencies:
-    postcss-value-parser "^4.0.2"
-
-rotating-file-stream@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/rotating-file-stream/-/rotating-file-stream-2.0.0.tgz#68ffb5abcf5b46009dc26d70b7675b9913310f77"
-  integrity sha512-CICpV69VCUujsdLdD6bqig7A9NjQU+HXRlt4YOqArg7wZynmvVOFYuL7tFF7UQEE7rUxy8G4RrRgo0tX1RU5uw==
 
 safe-buffer@5.1.2:
   version "5.1.2"
